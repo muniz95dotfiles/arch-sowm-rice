@@ -9,9 +9,14 @@ The code in the screenshot is me trying to reimplement sowm using tinywm as a st
 ### Details
 
 wm: [sowm](https://github.com/dylanaraps/sowm)
+
 terminal emulator: urxvt
+
 bar: polybar
-wallpaper: from the r/unixporn discord server (Im PlainOldCheese over there btw) but heres some links [succulent](https://github.com/torvim/pape/blob/master/moody_tumblr_vibes/pot.jpg) [trees](https://i.imgur.com/zP5ZP4i.jpg).
+
+wallpaper: from the r/unixporn discord server (Im PlainOldCheese over there btw) but heres some links:
+	- [succulent](https://github.com/torvim/pape/blob/master/moody_tumblr_vibes/pot.jpg) 
+	- [trees](https://i.imgur.com/zP5ZP4i.jpg).
 
 
 ## dependencies
