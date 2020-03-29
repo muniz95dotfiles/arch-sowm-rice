@@ -1,0 +1,6 @@
+#!/bin/bash
+# cuts the path to the wallpaper from ~/.fehbg and outputs to standard out
+
+wallpaper_path = $(tail -n 1 /$HOME/.fehbg | cut -d "'"  --output-delimiter "'" -f 2)
+echo $wallpaper_path
+done

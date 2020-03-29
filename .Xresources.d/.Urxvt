@@ -1,0 +1,55 @@
+!! Urxvt config (thanks addy fe https://addy-dclxvi.github.io/post/configuring-urxvt/)
+
+urxvt*termName:         rxvt-unicode
+urxvt*saveline: 4096
+urxvt*loginShell: true
+
+urxvt*geometry:      80x24
+urxvt*highlightSelection: true
+
+! transparency and blur
+! fake blur for now
+! urxvt*transparent: true
+! urxvt*shading: 50
+! urxvt*blurRadius: 15
+
+! real blur for when picom is fixed
+! urxvt*depth: 32
+! urxvt*background: rgba:0000/0000/0200/c800
+
+urxvt*borderless: 1
+urxvt*scrollBar: false
+urxvt*scrollBar_right: false
+urxvt*internalBorder: 18
+urxvt*urgentOnBell: true
+
+! fonts
+
+URxvt.font:                 xft:Terminus:style=Medium:pixelsize=12
+URxvt.boldFont:             xft:Terminus:style=Bold:pixelsize=12
+URxvt.italicFont:           xft:Terminus:style=Medium:pixelsize=12
+URxvt.boldItalicFont:       xft:Terminus:style=Bold:pixelsize=12
+
+
+urxvt*letterSpace:   1
+urxvt*lineSpace:     0
+urxvt*cursorBlink: true
+urxvt*cursorUnderline: false
+urxvt*boldMode:      on
+urxvt*colorMode:     on
+urxvt*colorBDMode:   on
+urxvt*colorULMode:   on
+urxvt*underLine:     on
+
+!! Common Keybinds for Navigations
+urxvt.keysym.Shift-Up: command:\033]720;1\007
+urxvt.keysym.Shift-Down: command:\033]721;1\007
+urxvt.keysym.Control-Up: \033[1;5A
+urxvt.keysym.Control-Down: \033[1;5B
+urxvt.keysym.Control-Right: \033[1;5C
+urxvt.keysym.Control-Left: \033[1;5D
+
+urxvt*urlLauncher: firefox
+urxvt*underlineURLs: true
+urxvt*urlButton: 1
+
